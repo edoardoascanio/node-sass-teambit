@@ -1,0 +1,48 @@
+@import "/partials/variables";
+@import "/partials/framework";
+@import "/partials/mixins";
+@import "/partials/commons";
+
+.navbar-container{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid $textColor;
+}
+
+.logo{
+    margin-top: ($size*2);
+}
+
+.sign-btn{
+    color: $btnColor;
+    border: 1px solid;
+}
+
+.hero img{
+    width: 100%;
+}
+
+hr{
+    border: 1px solid $textColor;
+}
+
+.pink-section img {
+    width: 40%;
+    margin: ($size*2);
+}
+
+#safe{
+    width: 15%;
+}
+
+.section-3 span img {
+    display: inline-block;
+    width: 5%;
+}
+
+footer{
+    padding-top: ($size*3) ;
+}
+
+
+

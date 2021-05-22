@@ -1,0 +1,13 @@
+
+@mixin list-reset {
+    margin-left: 0;
+    list-style: none;
+}    
+
+@mixin btn-default {
+    img{
+        max-width: ($size*3);
+        width: 100%;
+        margin: 2px;
+    }
+}

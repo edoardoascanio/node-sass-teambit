@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 98%;
+    margin: auto;
+    padding: ($size*3) ;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,h2,h3,strong,ul li{
+    color: $textColor;
+    font-weight: 600;
+}
+
+p{
+    color: $textColor; 
+}
+
+ul li{
+    @include list-reset
+}
+
+.small-text{
+    margin-top: ($size*2);
+    font-size: 12px;
+}
+
+button{
+    @include btn-default;
+    margin-top: ($size*2);
+}
+
+.pink-section{
+    background-color: $secondBackColor;
+    text-align: center;
+}
+
+
