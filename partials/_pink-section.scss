@@ -39,12 +39,11 @@ hr{
 
 .profile{
     display: flex;
-    flex-direction: row;
     width: 50%;
     margin-top:($size*6);
     
     img{ 
-      max-width: 60px;   
+      max-width: 55px;   
       width: 100%;
       margin-right: ($size*4);
     }
