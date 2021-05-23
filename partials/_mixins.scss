@@ -1,6 +1,7 @@
 
 @mixin list-reset {
-    margin-left: 0;
+    margin-top: $size;
+    color: $textColor;
     list-style: none;
 }    
 
@@ -10,4 +11,10 @@
         width: 100%;
         margin: 2px;
     }
+}
+
+@mixin clearfix{
+    content: "";
+    display: table;
+    clear: both;
 }

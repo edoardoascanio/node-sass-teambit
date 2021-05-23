@@ -35,17 +35,25 @@ hr{
     width: 15%;
 }
 
-.white-section img {
-    width: 40%;
+.white-section .row{
+    margin-top: ($size*8);
 }
 
-.section-3 span img {
-    display: inline-block;
-    width: 5%;
+.white-section img {
+    width: 100%;
+}
+
+.white-section strong{
+    margin-top: ($size*8);
+}
+
+.white-section p {
+    margin-top: ($size*8);
+    margin-bottom: ($size*4) ;
 }
 
 footer{
-    padding-top: ($size*3) ;
+    padding: ($size*10);
 }
 
 

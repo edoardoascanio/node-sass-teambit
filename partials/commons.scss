@@ -4,27 +4,24 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 98%;
-    margin: auto;
-    padding: ($size*3) ;
-}
-
 .container{
     width: 80%;
     margin: auto;
-    content: "";
-    display: table;
-    clear: both;
+    @include clearfix
+}
+
+.white-container{
+    width: 98%;
+    margin: auto;
+    padding: ($size*3);
+    @include clearfix
 }
 
 .row::after{
-    content: "";
-    display: table;
-    clear: both;
+    @include clearfix
 }
 
-h1,h2,h3,strong,ul li{
+h2,h3,strong{
     color: $textColor;
     font-weight: 600;
 }
