@@ -427,17 +427,17 @@
 }
 
 h2, h3, strong {
-  color: #4d2a28;
+  color: #58402c;
   font-weight: 600;
 }
 
 p {
-  color: #4d2a28;
+  color: #58402c;
 }
 
 ul li {
   margin-top: 5px;
-  color: #4d2a28;
+  color: #58402c;
   list-style: none;
 }
 
@@ -456,14 +456,22 @@ button img {
 }
 
 .pink-section {
-  background-color: #ffd5b0;
+  background-color: #ffe7d2;
   text-align: center;
+  padding: 25px;
+}
+.pink-section img {
+  width: 40%;
+}
+
+.white-section img {
+  width: 100%;
 }
 
 .navbar-container {
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #4d2a28;
+  border-bottom: 2px solid #58402c;
 }
 
 .logo {
@@ -471,21 +479,24 @@ button img {
 }
 
 .sign-btn {
-  color: #007db8;
+  color: #2f58b9;
   border: 1px solid;
 }
 
+.hero {
+  margin-bottom: 50px;
+}
 .hero img {
   width: 100%;
 }
 
-hr {
-  border: 1px solid #4d2a28;
+.pink-section h3 {
+  margin: 50px;
 }
 
-.pink-section img {
-  width: 40%;
-  margin: 10px;
+hr {
+  background-color: #58402c;
+  border: 1px solid #58402c;
 }
 
 #safe {
@@ -495,20 +506,61 @@ hr {
 .white-section .row {
   margin-top: 40px;
 }
-
-.white-section img {
-  width: 100%;
-}
-
 .white-section strong {
   margin-top: 40px;
 }
-
 .white-section p {
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
+#get {
+  margin-bottom: 50px;
+}
+#get img {
+  width: 3%;
+}
+
+.chat {
+  width: 62%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #2f58b9;
+  border-radius: 10px;
+}
+.chat p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 30px;
+}
+.profile img {
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+}
+.profile p {
+  margin-top: -15px;
+}
+.profile .caption {
+  margin-top: 30px;
+}
+
 footer {
   padding: 50px;
+}
+footer .logo-small {
+  float: left;
+  width: 12%;
+  margin-right: 20px;
+}
+footer img {
+  width: 100%;
 }

@@ -45,8 +45,20 @@ button{
 }
 
 .pink-section{
-    background-color: $secondBackColor;
+    background-color: $backgroundColor;
     text-align: center;
+    padding:($size*5);
+
+    img{
+        width: 40%;
+    }  
 }
+
+.white-section{
+    img{
+        width: 100%;
+    }  
+}
+
 
 
