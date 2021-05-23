@@ -1,0 +1,13 @@
+footer {
+    padding: ($size*10);
+
+    .logo-small{
+        float: left;
+        width: 12%;
+        margin-right: ($size*4);
+    }
+
+    img{
+        width: 100%;
+    }
+}

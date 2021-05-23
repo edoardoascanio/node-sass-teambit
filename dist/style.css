@@ -450,9 +450,9 @@ button {
   margin-top: 10px;
 }
 button img {
-  max-width: 15px;
+  max-width: 20px;
   width: 100%;
-  margin: 2px;
+  margin-right: 5px;
 }
 
 .pink-section {
@@ -503,17 +503,6 @@ hr {
   width: 15%;
 }
 
-.white-section .row {
-  margin-top: 40px;
-}
-.white-section strong {
-  margin-top: 40px;
-}
-.white-section p {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
 #get {
   margin-bottom: 50px;
 }
@@ -551,6 +540,17 @@ hr {
 }
 .profile .caption {
   margin-top: 30px;
+}
+
+.white-section .row {
+  margin-top: 40px;
+}
+.white-section strong {
+  margin-top: 40px;
+}
+.white-section p {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 footer {

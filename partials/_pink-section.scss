@@ -1,0 +1,59 @@
+.pink-section{
+    h3{
+        margin: ($size*10);
+    }
+}
+
+hr{
+    background-color: $textColor;
+    border: 1px solid $textColor;
+}
+
+#safe{
+    width: 15%;
+}
+
+
+#get {
+    margin-bottom:($size*10) ;
+
+    img{
+        width: 3%;
+    }
+}
+
+.chat{
+    width: 62%;
+    margin: auto;
+    margin-bottom:($size*10) ;
+    padding: ($size*4);
+    background-color: white;
+    border: 1px solid $btnColor;
+    border-radius: ($size*2);
+
+    p{
+        margin-top: ($size*2);
+        text-align: left;
+    }
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top:($size*6);
+    
+    img{ 
+      max-width: 60px;   
+      width: 100%;
+      margin-right: ($size*4);
+    }
+
+    p{
+        margin-top: (- ($size*3));
+    }
+
+    .caption{
+        margin-top:($size*6);
+    }
+}

@@ -7,9 +7,9 @@
 
 @mixin btn-default {
     img{
-        max-width: ($size*3);
+        max-width: ($size*4);
         width: 100%;
-        margin: 2px;
+        margin-right: $size;
     }
 }
 
