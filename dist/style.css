@@ -427,23 +427,24 @@
 }
 
 h2, h3, strong {
-  color: #58402c;
+  color: #0414b3;
   font-weight: 600;
 }
 
 p {
-  color: #58402c;
+  color: #7f14d4;
 }
 
 ul li {
   margin-top: 5px;
-  color: #58402c;
+  color: #0414b3;
   list-style: none;
 }
 
 .small-text {
   margin-top: 10px;
   font-size: 12px;
+  color: #0414b3;
 }
 
 button {
@@ -456,7 +457,7 @@ button img {
 }
 
 .pink-section {
-  background-color: #ffe7d2;
+  background-color: #7f14d4;
   text-align: center;
   padding: 25px;
 }
@@ -471,15 +472,16 @@ button img {
 .navbar-container {
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #58402c;
+  border-bottom: 2px solid #0414b3;
 }
 
 .logo {
-  margin-top: 10px;
+  max-width: 50px;
+  width: 100%;
 }
 
 .sign-btn {
-  color: #2f58b9;
+  color: #7f14d4;
   border: 1px solid;
 }
 
@@ -495,8 +497,8 @@ button img {
 }
 
 hr {
-  background-color: #58402c;
-  border: 1px solid #58402c;
+  background-color: #0414b3;
+  border: 1px solid #0414b3;
 }
 
 #safe {
@@ -516,7 +518,7 @@ hr {
   margin-bottom: 50px;
   padding: 20px;
   background-color: white;
-  border: 1px solid #2f58b9;
+  border: 1px solid #7f14d4;
   border-radius: 10px;
 }
 .chat p {
